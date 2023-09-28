@@ -1,0 +1,34 @@
+package Views;
+
+import controllers.EmpleadoController;
+
+public class EmpleadoView {
+
+	public static void main(String[] args) {
+		
+		
+		//Registro
+		//String empleado = new EmpleadoController().createEmpleado("Susano", "Nicoll", 20, "femenino", 4000.90);
+		//String empleado = new EmpleadoController().createEmpleado("Flores", "Brithany", 19, "femenino", 3500.90);
+		//String empleado = new EmpleadoController().createEmpleado("Suarez", "Raul", 22, "masculino", 3650.90);
+		//String empleado = new EmpleadoController().createEmpleado("Mendoza", "Fiorella", 21, "femenino", 2650.90);
+		
+		
+		//Eliminar
+		//String empleado = new EmpleadoController().deleteEmpleado(2);
+		
+		
+		//Actualizar
+		//String empleado = new EmpleadoController().UpdateEmpleado(3, "Rojas", "Walter");
+		//String empleado = new EmpleadoController().UpdateEmpleado(4, "Cruz", "Victoria");
+		
+		
+		//Lectura
+		String empleado = new EmpleadoController().getEmpleado(3);
+		
+		System.out.println(empleado);
+
+
+	}
+
+}
